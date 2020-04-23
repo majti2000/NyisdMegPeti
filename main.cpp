@@ -110,6 +110,7 @@ int main()
     for (Widget * wg : w) {
         wg->draw();
     }
+    gout << move_to(70,150) << color(255,255,255) << text("Na, Peti, raersz egy kis progra?");
     gout << refresh;
     event_loop(w);
     }
