@@ -166,7 +166,7 @@ int main()
                 gout << stamp(c3, 20, 200);
                 gout << stamp(c4, 280, 195);
                 gout << refresh;
-                if (ev1.type==ev_key)
+                if (ev1.type==ev_key && ev1.keycode==key_space)
                 {
                     stat=hb;
                 }
