@@ -123,7 +123,7 @@ int main()
     if (stat==szulinap_e){
         gout << move_to(0,0) << color(0,0,0) << box(400,400);
         gout << move_to(15,100) << color (179, 0, 90) << text("Ha ma van a szulinapod, nyomd meg ezt a szamot:") 
-       << move_to(50,200) <<  text("(3x^2)'+(x-3)^2+((x^4)/12)''-sqrt(81)") << refresh;
+       << move_to(50,200) <<  text("(3x^2)'+(x-3)^2-((x^4)/12)''-sqrt(81)") << refresh;
         if (ev1.type==ev_key && ev1.keycode==48)
         {
             stat=szekszipeter;
